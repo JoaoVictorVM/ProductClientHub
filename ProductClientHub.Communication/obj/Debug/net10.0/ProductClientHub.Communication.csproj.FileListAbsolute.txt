@@ -1,0 +1,11 @@
+D:\Jv\Files\Projects\ProductClientHub\ProductClientHub.Communication\bin\Debug\net10.0\ProductClientHub.Communication.deps.json
+D:\Jv\Files\Projects\ProductClientHub\ProductClientHub.Communication\bin\Debug\net10.0\ProductClientHub.Communication.dll
+D:\Jv\Files\Projects\ProductClientHub\ProductClientHub.Communication\bin\Debug\net10.0\ProductClientHub.Communication.pdb
+D:\Jv\Files\Projects\ProductClientHub\ProductClientHub.Communication\obj\Debug\net10.0\ProductClientHub.Communication.GeneratedMSBuildEditorConfig.editorconfig
+D:\Jv\Files\Projects\ProductClientHub\ProductClientHub.Communication\obj\Debug\net10.0\ProductClientHub.Communication.AssemblyInfoInputs.cache
+D:\Jv\Files\Projects\ProductClientHub\ProductClientHub.Communication\obj\Debug\net10.0\ProductClientHub.Communication.AssemblyInfo.cs
+D:\Jv\Files\Projects\ProductClientHub\ProductClientHub.Communication\obj\Debug\net10.0\ProductClientHub.Communication.csproj.CoreCompileInputs.cache
+D:\Jv\Files\Projects\ProductClientHub\ProductClientHub.Communication\obj\Debug\net10.0\ProductClientHub.Communication.dll
+D:\Jv\Files\Projects\ProductClientHub\ProductClientHub.Communication\obj\Debug\net10.0\refint\ProductClientHub.Communication.dll
+D:\Jv\Files\Projects\ProductClientHub\ProductClientHub.Communication\obj\Debug\net10.0\ProductClientHub.Communication.pdb
+D:\Jv\Files\Projects\ProductClientHub\ProductClientHub.Communication\obj\Debug\net10.0\ref\ProductClientHub.Communication.dll
