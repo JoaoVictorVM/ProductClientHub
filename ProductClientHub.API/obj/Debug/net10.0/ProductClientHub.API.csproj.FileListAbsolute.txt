@@ -79,3 +79,4 @@ C:\Users\mart1\Documents\GitHub\ProductClientHub\ProductClientHub.API\obj\Debug\
 C:\Users\mart1\Documents\GitHub\ProductClientHub\ProductClientHub.API\obj\Debug\net10.0\ProductClientHub.API.pdb
 C:\Users\mart1\Documents\GitHub\ProductClientHub\ProductClientHub.API\obj\Debug\net10.0\ProductClientHub.API.genruntimeconfig.cache
 C:\Users\mart1\Documents\GitHub\ProductClientHub\ProductClientHub.API\obj\Debug\net10.0\ref\ProductClientHub.API.dll
+C:\Users\mart1\Documents\GitHub\ProductClientHub\ProductClientHub.API\bin\Debug\net10.0\FluentValidation.dll
