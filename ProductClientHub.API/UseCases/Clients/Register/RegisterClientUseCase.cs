@@ -15,7 +15,9 @@ public class RegisterClientUseCase
         if (result.IsValid == false)
         {
 
-            throw new ArgumentException("Erro nos dados recebidos.");
+            var errors = result.Errors.Select(failure => failure.ErrorMessage).ToList();
+
+            throw new ProductClientHub.Exceptions.ExceptionsBase.ErrorOnValidantionException(errors);
             
         }
 

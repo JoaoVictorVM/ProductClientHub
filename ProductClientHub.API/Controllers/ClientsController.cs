@@ -22,9 +22,12 @@ namespace ProductClientHub.API.Controllers
 
                 return Created(string.Empty, reponse);
             }
-            catch (ArgumentException ex)
+            catch (ProductClientHub.Exceptions.ExceptionsBase.ProductClientHubExceptions ex)
             {
-                return BadRequest(new Communication.Response.ResponseErrorMessageJson(ex.Message));
+
+                var errors = ex.GetErrors();
+
+                return BadRequest(new Communication.Response.ResponseErrorMessageJson(errors));
             }
             catch
             {
