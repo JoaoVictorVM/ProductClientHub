@@ -13,27 +13,9 @@ namespace ProductClientHub.API.Controllers
         [ProducesResponseType(typeof(Communication.Response.ResponseErrorMessageJson), StatusCodes.Status400BadRequest)]
         public IActionResult Register([FromBody] Communication.Request.RequestClientJson request)
         {
-
-            try
-            {
-                var useCase = new RegisterClientUseCase();
-
-                var reponse = useCase.Execute(request);
-
-                return Created(string.Empty, reponse);
-            }
-            catch (ProductClientHub.Exceptions.ExceptionsBase.ProductClientHubExceptions ex)
-            {
-
-                var errors = ex.GetErrors();
-
-                return BadRequest(new Communication.Response.ResponseErrorMessageJson(errors));
-            }
-            catch
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError, new Communication.Response.ResponseErrorMessageJson("Erro desconhecido."));
-            }
-            
+            var useCase = new RegisterClientUseCase();
+            var reponse = useCase.Execute(request);
+            return Created(string.Empty, reponse);
         }
 
         [HttpPut]

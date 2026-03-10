@@ -1,4 +1,5 @@
 using ProductClientHub.Communication.Response;
+using ProductClientHub.Exceptions.ExceptionsBase;
 
 namespace ProductClientHub.API.UseCases.Clients.Register;
 
@@ -17,7 +18,7 @@ public class RegisterClientUseCase
 
             var errors = result.Errors.Select(failure => failure.ErrorMessage).ToList();
 
-            throw new ProductClientHub.Exceptions.ExceptionsBase.ErrorOnValidantionException(errors);
+            throw new ErrorOnValidationException(errors);
             
         }
 

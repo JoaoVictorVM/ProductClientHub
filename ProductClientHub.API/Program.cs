@@ -8,6 +8,8 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddMvc(option => option.Filters.Add(typeof(ProductClientHub.API.Filters.ExceptionFilter)));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
