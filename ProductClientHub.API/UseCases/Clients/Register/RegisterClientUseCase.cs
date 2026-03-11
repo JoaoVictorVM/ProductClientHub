@@ -1,5 +1,6 @@
 using ProductClientHub.API.Entities;
 using ProductClientHub.API.Infrastructure;
+using ProductClientHub.API.UseCases.Clients.SharedValidator;
 using ProductClientHub.Communication.Request;
 using ProductClientHub.Communication.Response;
 using ProductClientHub.Exceptions.ExceptionsBase;
@@ -32,7 +33,7 @@ public class RegisterClientUseCase
 
     private void Validate(RequestClientJson request)
     {
-        var validator = new RegisterClientValidator();
+        var validator = new RequestClientValidator();
         var result = validator.Validate(request);
         if (result.IsValid == false)
         {
