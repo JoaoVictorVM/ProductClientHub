@@ -19,7 +19,5 @@
     <Folder Include="Controllers\" />
     <Folder Include="Filters\" />
     <Folder Include="UseCases\" />
-    <Folder Include="UseCases\Clients\" />
-    <Folder Include="UseCases\Clients\Register\" />
   </ItemGroup>
 </Project>
